@@ -9,15 +9,15 @@
 <body>
     
     <header>
-        <img src="https://via.placeholder.com/400x100?text=Replace+with+Your+Image+URL" alt="Squeezer MK Logo" class="logo">
+        <img src="./assets/img/squeezy-mk-21-03-2025 (2).png" alt="Squeezy MK Logo" class="logo">
         <div class="search-cart">
             <form id="searchForm" onsubmit="searchAndRedirect(event)">
                 <i class="fas fa-search search-icon"></i>
                 <input type="text" id="searchBar" name="search" placeholder="Pesquisar produtos..." required>
             </form>
             <div class="user-cart">
-                <img src="https://via.placeholder.com/30?text=User" alt="User" onclick="openModal('loginModal')">
-                <img src="https://via.placeholder.com/35x35/D1478F/FFFFFF?text=Cart" alt="Cart" onclick="openModal('cartModal')">
+                <img src="./assets/img/circle-user.png" alt="User" onclick="openModal('loginModal')">
+                <img src="./assets/img/shopping-cart.png" alt="Cart" onclick="openModal('cartModal')">
             </div>
         </div>
     </header>
@@ -29,7 +29,7 @@
         <a href="#" onclick="showPage('canetas')">Canetas</a>
         <a href="#" onclick="showPage('caps')">Caps</a>
         <a href="#" onclick="showPage('acessorios')">Acessórios</a>
-        <a href="#" onclick="showPage('latas')">Latas</a>
+        <a href="#" onclick="showPage('latas')">Spray</a>
     </nav>
 
     <div class="pages">
@@ -38,37 +38,38 @@
             <p style="text-align: center; color: #fff; font-size: 1.2rem;">Explore nossa coleção de produtos inspirados na cultura do graffiti. Escolha sua categoria e comece a criar!</p>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Quadro 1" alt="Quadro 1">
+                    <img src="./assets/img/bomb.jpg" alt="Quadro Urbano">
                     <p>Quadro Urbano</p>
                     <p>25,00$</p>
                     <button onclick="addToCart('Quadro Urbano', 25.00)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Tinta 1" alt="Tinta 1">
-                    <p>Tinta Spray Vermelha</p>
+                    <img src="./assets/img/tinta_vermelha.webp" alt="Tinta 1">
+                    <p>Tinta Squeezer Vermelha</p>
                     <p>5,50$</p>
-                    <button onclick="addToCart('Tinta Spray Vermelha', 5.50)">Adicionar ao Carrinho</button>
+                    <button onclick="addToCart('Tinta Squeezer Vermelha', 5.50)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="./assets/img/bomb.jpg" alt="Caneta 1">
-                    <p>Caneta Preta</p>
+                    <img src="./assets/img/caneta_molotow.jpg" alt="caneta_molotow
+                    ">
+                    <p>Caneta Molotow</p>
                     <p>3,00$</p>
                     <button onclick="addToCart('Caneta Preta', 3.00)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Cap 1" alt="Cap 1">
+                    <img src="./assets/img/cap_fino.webp" alt="Cap 1">
                     <p>Cap Fino - 5 uni</p>
                     <p>4,75$</p>
                     <button onclick="addToCart('Cap Fino - 5 uni', 4.75)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Acessório 1" alt="Acessório 1">
+                    <img src="./assets/img/mascara.jpg" alt="mascara">
                     <p>Máscara de Proteção</p>
                     <p>10,00$</p>
                     <button onclick="addToCart('Máscara de Proteção', 10.00)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Lata 1" alt="Lata 1">
+                    <img src="./assets/img/lata_stencil.jpeg" alt="lata_stencil">
                     <p>Lata Stencil</p>
                     <p>8,69$</p>
                     <button onclick="addToCart('Lata: Stencil', 8.69)">Adicionar ao Carrinho</button>
@@ -80,13 +81,13 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Quadros</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Quadro 1" alt="Quadro 1">
+                    <img src="./assets/img/bomb.jpg" alt="Quadro Urbano">
                     <p>Quadro Urbano</p>
                     <p>25,00$</p>
                     <button onclick="addToCart('Quadro Urbano', 25.00)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Quadro 2" alt="Quadro 2">
+                    <img src="./assets/img/planta.jpg" alt="Quadro Abstrato">
                     <p>Quadro Abstrato</p>
                     <p>30,00$</p>
                     <button onclick="addToCart('Quadro Abstrato', 30.00)">Adicionar ao Carrinho</button>
@@ -98,14 +99,14 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Tintas</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Tinta 1" alt="Tinta 1">
-                    <p>Tinta Spray Vermelha</p>
+                    <img src="./assets/img/tinta_vermelha.webp" alt="Tinta 1">
+                    <p>Tinta Squeezer Vermelha</p>
                     <p>5,50$</p>
-                    <button onclick="addToCart('Tinta Spray Vermelha', 5.50)">Adicionar ao Carrinho</button>
+                    <button onclick="addToCart('Tinta Squeezer Vermelha', 5.50)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Tinta 2" alt="Tinta 2">
-                    <p>Tinta Spray Azul</p>
+                    <img src="./assets/img/tinta_azul.jpeg" alt="Tinta 2">
+                    <p>Tinta Squeezer Azul</p>
                     <p>5,50$</p>
                     <button onclick="addToCart('Tinta Spray Azul', 5.50)">Adicionar ao Carrinho</button>
                 </div>
@@ -116,7 +117,7 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Canetas</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Caneta 1" alt="Caneta 1">
+                    <img src="./assets/img/caneta_preta.png" alt="Caneta_Preta">
                     <p>Caneta Preta</p>
                     <p>3,00$</p>
                     <button onclick="addToCart('Caneta Preta', 3.00)">Adicionar ao Carrinho</button>
@@ -128,7 +129,7 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Caps</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Cap 1" alt="Cap 1">
+                    <img src="./assets/img/cap_fino.webp" alt="Cap 1">
                     <p>Cap Fino - 5 uni</p>
                     <p>4,75$</p>
                     <button onclick="addToCart('Cap Fino - 5 uni', 4.75)">Adicionar ao Carrinho</button>
@@ -140,7 +141,7 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Acessórios</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Acessório 1" alt="Acessório 1">
+                    <img src="./assets/img/mascara.jpg" alt="mascara">
                     <p>Máscara de Proteção</p>
                     <p>10,00$</p>
                     <button onclick="addToCart('Máscara de Proteção', 10.00)">Adicionar ao Carrinho</button>
@@ -152,13 +153,13 @@
             <h2 style="text-align: center; margin-bottom: 30px; color: #e0e0e0; text-shadow: 2px 2px 5px #1e1430;">Latas</h2>
             <div class="products">
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Lata 1" alt="Lata 1">
-                    <p>Lata Stencil</p>
+                    <img src="./assets/img/lata_branca.jpg" alt="Lata 1">
+                    <p>Lata branca</p>
                     <p>8,69$</p>
                     <button onclick="addToCart('Lata: Stencil', 8.69)">Adicionar ao Carrinho</button>
                 </div>
                 <div class="product">
-                    <img src="https://via.placeholder.com/150?text=Lata 2" alt="Lata 2">
+                    <img src="./assets/img/lata_gold.jpeg" alt="Lata_gold">
                     <p>Lata Gold</p>
                     <p>4,75$</p>
                     <button onclick="addToCart('Lata: Gold', 4.75)">Adicionar ao Carrinho</button>
